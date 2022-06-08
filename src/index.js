@@ -35,7 +35,7 @@ client.on('message', async(channel, userstate, message, self) => {
         // translatte(data.joke, {to: 'es'}).then(res => {
         //     client.say(channel, res.text);
         // });
-        client.say(channel, data.text);
+        client.say(channel, data.joke);
 	}
     if(command === 'feo') {
 		client.say(channel, "Tu si que ere feo " + nick);
